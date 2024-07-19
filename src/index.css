@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes lightMove {
+    0% {
+        background-position: -200%;
+    }
+
+    100% {
+        background-position: 200%;
+    }
+}
+
+.bestseller-badge {
+    background: linear-gradient(45deg, rgb(5, 214, 237) 0%, rgb(13, 71, 187) 50%, rgb(6, 192, 182) 100%);
+    background-size: 200% 200%;
+    animation: lightMove 3s linear infinite;
+}
+
+.text-xxs{
+    font-size: 0.65rem;
+}
+
+
+
